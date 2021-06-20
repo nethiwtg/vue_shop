@@ -1,5 +1,10 @@
 <template>
     <div>
-        <h3>Welcome</h3>
+        <img class="welcome" src="../assets/bunt.png" alt="">
     </div>
 </template>
+<style>
+.welcome{
+    width: 100%;
+}
+</style>
