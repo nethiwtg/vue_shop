@@ -69,13 +69,16 @@ export default {
 </script>
 <style   scoped>
 .login_container {
-  background-color: #2b4b6b;
+  background-image:url(../assets/background.jpg) ;
+  
+  background-size: contain;
+  background-repeat: repeat;
+  
   height: 100%;
 }
 .login_box {
   width: 450px;
   height: 300px;
-  background-color: white;
   border-radius: 3px;
   position: absolute;
   left: 50%;
@@ -111,4 +114,12 @@ export default {
     padding: 0 20px;
     box-sizing: border-box;
 }
+.el-form-item{
+    opacity: 0.4;
+}
+.el-form-item:hover{
+    opacity: 1;
+}
+
+
 </style>
