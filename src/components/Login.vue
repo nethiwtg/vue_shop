@@ -69,9 +69,9 @@ export default {
 </script>
 <style   scoped>
 .login_container {
-  background-image:url(../assets/background.jpg) ;
+  background-image:url(../assets/bunt.jpg) ;
   
-  background-size: contain;
+  background-size: 50%;
   background-repeat: repeat;
   
   height: 100%;
